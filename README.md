@@ -24,3 +24,5 @@ Preprocessing: Resize (100×100), normalization, data augmentation
 Models: Custom CNN, VGG16, ResNet50
 
 Tools: TensorFlow/Keras, scikit-learn, Google Colab (GPU)
+
+========================================================
