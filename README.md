@@ -1,28 +1,75 @@
-Fruit Classification using CNNs
-Overview
+### Fruit Image Classification using CNN and Transfer Learning
 
-This project implements CNN-based fruit classification using the Fruits-360 dataset. A custom CNN and transfer learning models (VGG16, ResNet50) are used to achieve high accuracy and enable real-time image prediction.
+## 📌 Overview
+This project implements a deep learning-based **multi-class image classification system** to recognize different types of fruits using the **Fruit-360 dataset**. It demonstrates the complete computer vision workflow including preprocessing, CNN training, transfer learning, and evaluation.
 
-Objectives
+The project also explores how pre-trained architectures improve performance compared to a baseline CNN model.
 
-Build a baseline CNN model
+---
 
-Apply transfer learning with VGG16 and ResNet50
+## 🎯 Objectives
+- Build an end-to-end fruit classification model using CNN  
+- Apply deep learning feature extraction through convolutional layers  
+- Compare baseline CNN with transfer learning approaches  
+- Evaluate model accuracy and generalization  
 
-Fine-tune models to achieve >90% accuracy
+---
 
-Evaluate using accuracy, precision, recall, F1-score, and confusion matrix
+## 🚀 Key Highlights
+- Implemented a custom CNN model using TensorFlow/Keras  
+- Performed image preprocessing:
+  - Resizing  
+  - Normalization  
+  - Data augmentation  
+- Applied Transfer Learning using:
+  - **VGG16**
+  - **ResNet50**
+- Visualized training and validation accuracy/loss curves  
 
-Implement real-time fruit image prediction
+---
 
-Methodology
+## 🛠️ Tech Stack
+- Python  
+- TensorFlow / Keras  
+- NumPy, Pandas  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
 
-Dataset: Fruits-360 (10 classes)
+---
 
-Preprocessing: Resize (100×100), normalization, data augmentation
+## 📂 Dataset
+- **Fruit-360 Dataset**  
+A labeled dataset containing multiple fruit categories with standardized image resolution.
 
-Models: Custom CNN, VGG16, ResNet50
+---
 
-Tools: TensorFlow/Keras, scikit-learn, Google Colab (GPU)
+## 📊 Results
+- Baseline CNN achieved strong classification performance  
+- Transfer learning models improved feature representation and accuracy  
+- Demonstrated effective application of deep learning in computer vision tasks  
 
-========================================================
+---
+
+## ▶️ How to Run
+```bash
+git clone https://github.com/Madi-ha/Image-classification-using-CNN-on-fruit-data-set
+cd Image-classification-using-CNN-on-fruit-data-set
+jupyter notebook
+
+---
+
+## 👩‍💻 Author & Contact
+'''' **Syeda Madiha Mahvash** '''''
+AI Engineer | Deep Learning | Computer Vision  
+
+This project reflects my work in applying Convolutional Neural Networks (CNNs) and Transfer Learning techniques for real-world image classification tasks.
+
+🔗 LinkedIn: [madihasyeda-dsaml](https://www.linkedin.com/in/madihasyeda-dsaml/)  
+
+📌 Skills Demonstrated:  
+- CNN Architecture Design  
+- Transfer Learning (VGG16, ResNet50)  
+- Image Preprocessing & Augmentation  
+- Model Training and Evaluation  
+
+---
